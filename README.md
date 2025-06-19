@@ -1,1 +1,1 @@
-# lemonlib-docs
+Hi! Welcome to the LemonLib docs! This software is provided by team 5113 and we hope you enjoy it. If you want feel free to make pull requests or open up issues, this repo is actively maintained (Both this and the actual LemonLib)

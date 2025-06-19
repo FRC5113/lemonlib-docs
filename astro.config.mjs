@@ -19,8 +19,15 @@ export default defineConfig({
 				{
 					label: 'Reference',
 					items: [
-						{label: "LemonPigeon", slug: 'reference/pigeon'},
-						{label: "LemonTalonFX ", slug: 'reference/talonfx'}
+						{label: 'CTRE',
+							items: [
+							{label: "LemonPigeon", slug: 'reference/pigeon'},
+							{label: "LemonTalonFX ", slug: 'reference/talonfx'}
+							]
+						},
+						{ label: "Drive", items: [
+							{label: "KilloughDrive (kiwi)", slug: 'reference/kiwi'}
+						]}
 					]
 				},
 			],
