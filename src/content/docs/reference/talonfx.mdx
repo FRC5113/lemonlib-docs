@@ -1,0 +1,45 @@
+---
+title: lemonTalonFX
+description: A high level component for working with TalonFX's, that implement wpilib's motor controller interface.
+---
+
+## Purpose
+This component provides an easy to use API for working with TalonFX motor controllers, it also implements WPILIB's motor controler interface meaning it can be used in `wpilib.MotorControllerGroup`.
+
+## Add to files
+You can add the `LemonTalonFX` class to your file like this
+```py
+from lemonlib.ctre import LemonTalonFX
+```
+To insatiate a new instance do the following
+
+```py
+#Your existing code ... (must be in a class)
+self.<YOUR_VAR_NAME> = LemonTalonFX(device_id: int, canbus: str, enable_foc: bool = False)
+```
+{/*Ryan is this correct*/}
+`device_id` is the devices can id, *SOMEBODY ADD WHAT CANBUS IS IDK* and `enable_foc` when true tells it to use FOC communication, which draw more power
+
+## Methods
+{/*Ryan .get() is a terrible function name and I am not sure I have the definition right*/}
+{/*Same thing for .getInverted(), and I am not sure the definition is right.*/}
+{/*What is the unit of input for .set (volts, rps etc...)*/}
+```py
+
+LemonTalonFX.disable() # Stops the motor and disables it, meaning it will not run until reenabled. (void)
+
+LemonTalonFX.get() # Proportion of supply voltage to apply in fractional units between -1 and +1 (float)
+
+LemonTalonFX.getInverted() # Gets if the motor is currently inverted (bool) 
+
+LemonTalonFX.set(speed: float) # Speed you wish to set the controller to (void)
+
+LemonTalonFX.setIdleMode(mode: phoenix6.signals.NeutralModeValue) # Once you import NeutralMode from phoenix 6 call this with NeutralMode.Coast or .Brake to set it to break or coast (void)
+
+LemonTalonFx.setInverted(isInverted: bool) # Pass True for clockwise and False for counterclockwise to be inverted (void)
+
+LemonTalonFX.setVoltage(volts: float) # Pass in the number of volts to apply to the motor (void)
+
+LemonTalonFX.stop() # Stops the motor but does not disable it. (void)
+```
+
