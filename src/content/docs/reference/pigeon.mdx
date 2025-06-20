@@ -23,17 +23,16 @@ The canId variable should be well, the can id, which you can get with the Rev Ha
 
 {/*Chase check return types is it float or a wpimath thing*/}
 ```py
-LemonPigeon.getAngleCCW() # Returns the current yaw (Float)
+LemonPigeon.getAngleCCW() -> Float # Returns the current yaw 
 
-LemonPigeon.getRoll() # Returns the current roll (Float)
+LemonPigeon.getRoll() -> Float # Returns the current roll 
 
-LemonPigeon.getPitch() # Returns the current pitch (Float)
+LemonPigeon.getPitch() -> Float # Returns the current pitch 
 
-LemonPigeon.getDegreesPerSecCCW() # Returns the angular velocity in degrees (Float)
+LemonPigeon.getDegreesPerSecCCW() -> Float # Returns the angular velocity in degrees 
 
-LemonPigeon.getRadiansPerSecCCW() # Returns the angular velocity in radians (Float)
+LemonPigeon.getRadiansPerSecCCW() -> Float # Returns the angular velocity in radians 
 
-LemonPigeon.getRotation2d() # Gets the current heading of the robot, note it does not wrap around so after 360 is 361 not zero (wpimath.geometry.Rotation2c)
+LemonPigeon.getRotation2d() -> wpimath.geometry.Rotation2D # Gets the current heading of the robot, note it does not wrap around so after 360 is 361 not zero
 
-LemonPigeon.setAngleAdjustment(angle: Int) # Sets the current offset, so if you want to set the current direction to zero you could do setAngleAdjustment(0) (void)
-```
+LemonPigeon.setAngleAdjustment(angle: Int) -> None # Sets the current offset, so if you want to set the current direction to zero you could do setAngleAdjustment(0)

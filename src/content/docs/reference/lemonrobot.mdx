@@ -1,0 +1,32 @@
+---
+title: LemonRobot
+desciption: Lemon Robot component, for managing swerve drives
+---
+
+## Purpose
+Wrapper for the magicbot robot class to allow for command-based functionality. This class is used to create a robot that can be controlled using commands, while still using the magicbot framework.
+
+## Add to files
+
+```py
+
+from lemonlib.lemonbot import LemonRobot
+
+class MyRobot(LemonRobot):
+    #Your methods
+```
+
+## Methods
+
+{/*Ryan there are way more methods right??*/}
+```py
+
+LemonRobot.add_periodic(self, callback: Callable[[], None], period: float) -> None
+#Pass in a callback function that will be executed on every period call of teleopPeriodic, so if period is 2 every other call, if period is 1 every call etc. (every cycle)
+
+LemonRobot.autonomous() -> None
+#Runs all code in autonomous_periodic
+
+LemonRobot.get_period() -> float
+#Gets period of the robot in seconds (how many seconds per cycle)
+```

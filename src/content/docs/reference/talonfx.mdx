@@ -26,20 +26,20 @@ self.<YOUR_VAR_NAME> = LemonTalonFX(device_id: int, canbus: str, enable_foc: boo
 {/*What is the unit of input for .set (volts, rps etc...)*/}
 ```py
 
-LemonTalonFX.disable() # Stops the motor and disables it, meaning it will not run until reenabled. (void)
+LemonTalonFX.disable() # Stops the motor and disables it, meaning it will not run until reenabled. 
 
-LemonTalonFX.get() # Proportion of supply voltage to apply in fractional units between -1 and +1 (float)
+LemonTalonFX.get() -> Float # Proportion of supply voltage to apply in fractional units between -1 and +1 
 
-LemonTalonFX.getInverted() # Gets if the motor is currently inverted (bool) 
+LemonTalonFX.getInverted() -> Bool # Gets if the motor is currently inverted 
 
-LemonTalonFX.set(speed: float) # Speed you wish to set the controller to (void)
+LemonTalonFX.set(speed: float) -> None # Speed you wish to set the controller too
 
-LemonTalonFX.setIdleMode(mode: phoenix6.signals.NeutralModeValue) # Once you import NeutralMode from phoenix 6 call this with NeutralMode.Coast or .Brake to set it to break or coast (void)
+LemonTalonFX.setIdleMode(mode: phoenix6.signals.NeutralModeValue) ->None # Once you import NeutralMode from phoenix 6 call this with NeutralMode.Coast or .Brake to set it to break or coast 
 
-LemonTalonFx.setInverted(isInverted: bool) # Pass True for clockwise and False for counterclockwise to be inverted (void)
+LemonTalonFx.setInverted(isInverted: bool) -> None # Pass True for clockwise and False for counterclockwise to be inverted 
 
-LemonTalonFX.setVoltage(volts: float) # Pass in the number of volts to apply to the motor (void)
+LemonTalonFX.setVoltage(volts: float) -> None # Pass in the number of volts to apply to the motor 
 
-LemonTalonFX.stop() # Stops the motor but does not disable it. (void)
+LemonTalonFX.stop() -> None # Stops the motor but does not disable it. 
 ```
 

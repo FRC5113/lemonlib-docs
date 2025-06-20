@@ -27,7 +27,17 @@ export default defineConfig({
 						},
 						{ label: "Drive", items: [
 							{label: "KilloughDrive (kiwi)", slug: 'reference/kiwi'}
-						]}
+						]},
+						{
+							label: "lemonbot", items: [
+								{label: "LemonRobot", slug: 'reference/lemonrobot'}
+							]
+						},
+						{
+							label: "Sim", items: [
+								{lable: "FalconSim", slug: 'reference/falconsim'}
+							]
+						}
 					]
 				},
 			],
