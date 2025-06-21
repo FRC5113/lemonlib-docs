@@ -1,0 +1,53 @@
+---
+title: LemonInputSim
+description: Easy way to simulate our cross conterler input interface
+---
+## Purpose
+Allow you to use the LemonInput class in your simulations
+
+## Add to files
+
+```py
+from lemonlib.simulation import LemonInputSim
+
+self.<YOUR_VAR_NAME> = LemonInputSim(port: int)
+#It will automaticly detect which controler is on the usb port specified and if it is an Xbox it will sim an Xbox, if not a PS5, no other types of contolers are supported.
+```
+
+## Methods
+
+```py
+LemonInputSim.setLeftBumper(value: bool) -> None
+#Sets if the left bumper is pressed, so true will make the bumpper pressed regardless of reality, and will stay that way until the left bumper is clicked again
+
+LemonInputSim.setRightBumper(value: bool) -> None
+#Sets if the right bumper is pressed, so true will make the bumpper pressed regardless of reality, and will stay that way until the right bumper is clicked again
+
+LemonInputSim.setStartButton(value: bool) -> None
+#Sets if the start button is pressed, so true will make the button pressed regardless of reality, and will stay that way until the start button is clicked again
+
+LemonInputSim.setBackButton(value: bool) -> None
+#Sets if the back button is pressed, so true will make the button pressed regardless of reality, and will stay that way until the back button is clicked again
+
+LemonInputSim.setAButton(value: bool) -> None
+#Sets if the A button is pressed, so true will make the button pressed regardless of reality, and will stay that way until the A button is clicked again, here A button refers to the A button on Xbox and the X on PS5
+
+LemonInputSim.setBButton(value: bool) -> None
+#Sets if the B button is pressed, so true will make the button pressed regardless of reality, and will stay that way until the B button is clicked again here B button refers to the B button on Xbox and the Circle on PS5
+
+LemonInputSim.setXButton(value: bool) -> None
+#Sets if the X button is pressed, so true will make the button pressed regardless of reality, and will stay that way until the X button is clicked again here B button refers to the X button on Xbox and the Square on PS5
+
+LemonInputSim.setYButton(value: bool) -> None
+#Sets if the Y button is pressed, so true will make the button pressed regardless of reality, and will stay that way until the Y button is clicked again here B button refers to the Y button on Xbox and the Triangle on PS5
+
+LemonInputSim.setLeftStickButton(value: bool) -> None
+#Sets if the Left stick button is pressed, so true will make the button pressed regardless of reality, and will stay that way until the Left Stick button is clicked again, this is refering to if the joystick is pressed down not the X or Y readings
+
+LemonInputSim.setRightStickButton(value: bool) -> None
+#Sets if the Right stick button is pressed, so true will make the button pressed regardless of reality, and will stay that way until the Right Stick button is clicked again, this is refering to if the joystick is pressed down not the X or Y readings
+
+LemonInputSim.setRightTriggerAxis(value: float) -> None
+
+
+```

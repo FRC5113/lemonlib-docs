@@ -35,7 +35,10 @@ export default defineConfig({
 						},
 						{
 							label: "Sim", items: [
-								{lable: "FalconSim", slug: 'reference/falconsim'}
+								{label: "FalconSim", slug: 'reference/falconsim'},
+								{label: "KilloughSim (Kiwi sim)", slug: 'reference/kiwisim'},
+								{label: "LemonCamSim", slug: 'reference/lemoncamsim'},
+								{label: "LemonInputSim", slug: 'reference/lemoninputsim'}
 							]
 						}
 					]

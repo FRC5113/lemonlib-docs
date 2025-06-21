@@ -5,3 +5,23 @@ desciption: Easily control simulations of Falcon motors
 ---
 
 ## Purpose
+Allows teams to easily simulate Falcon motors
+
+## Add to files
+
+```py
+from lemonlib.simulation import FalconSim
+
+self.<Your Variable Name> = FalconSim(motor: TalonFX, moi: float, gearing: float) -> FalconSim
+#Motor should be the instance of the Pheonix6 TalonFX, moi is <ADD WHAT MOI IS>, and gearing is the gear ratio on the motor
+```
+
+## Methods
+{/*Ryan, is my def for getSetpoint correct*/}
+```py
+FalconSim.getSetpoint() -> Float #Returns the current motor voltage at the sim state 
+
+FalconSim.update(dt: float) -> float # dt stands for Delta Time and it is the ammount of time passed since the last call.
+
+
+```

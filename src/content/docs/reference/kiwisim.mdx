@@ -1,0 +1,26 @@
+---
+title: Kiwi Sim
+desciption: A module for simulating the behavior of kiwi drive robots
+---
+
+## Purppose
+This module abstracts away most of the complexity of kiwi drive simulations and allows you to easily test and verify your code works in a WPILIB sim
+
+## Add to files
+To add to files do the follwing
+
+```py
+from lemonlib.simulation import KilloughDriveSim
+
+KilloughDriveSim(drive : ADD_TYPE_ANNOTATION, mass = 50.0 : float, moment_of_inertia = 10.0: float, wheel_force = 100.0: float)
+#Drive is <WHAT IS DRIVE??>, mass is the mass of your robat in grams (IS THAT CORRECT), moment_of_inertia is self explanitory, wheel_force is <WHAT IS WHEEL FORCE>
+```
+
+## Methods
+```py
+KilloughDriveSim.update(dt = 0.02: float) -> None
+#Updates your sim, dt is the time since last "update"
+
+KilloughDriveSim.get_pose() -> wpimath.geometry.Pose2D
+# Gets the current pose of your robot, both in teleop and auton.
+```
