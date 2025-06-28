@@ -1,13 +1,22 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import node from '@astrojs/node';
 
 // https://astro.build/config
 export default defineConfig({
+	output: 'server',
+	adapter: node({
+		mode: 'standalone'
+	}),
 	integrations: [
 		starlight({
 			title: 'LemonLib documentation',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/FRC5113/LemonLib' }],
+			favicon: '/lemons.ico',
+			social: [
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/FRC5113/LemonLib' }, 
+				{ icon: 'instagram', label: 'Instagram', href: "https://www.instagram.com/frc5113/"}
+			],
 			sidebar: [
 				{
 					label: 'Guides',
