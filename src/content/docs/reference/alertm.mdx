@@ -1,0 +1,37 @@
+---
+
+title: AlertManager
+description: A class to manage your alerts which inherits from the wputil.Sendable class
+
+---
+
+## Purpose
+Allows you to easily manage your alerts
+
+## Add to files
+```py
+
+from lemonlib.util import AlertManger
+AlertManager(logger: logging.Logger)
+# Just pass in your preferred logger
+
+```
+
+## Methods
+
+```py
+
+#Note: This class inherits from wpiutil.Sendable so you may use any methods from sendable
+
+AlertManager.initSendable(builder: wpiutil.SendableBuilder) -> None
+# This method will configure the builder you pass in so it will work with the AlertManager class
+
+# ---STATIC METHODS---
+
+AlertManager.get_strings(type: AlertType) -> List[str]
+# Will return the messages of all the alerts of the type specified
+
+AlertManager.instant_alert(text: str, type: AlertType, timeout: float = 0.0) -> None
+# text is text of your alert, type comes from the AlertType enum timeout is how long it appears for (defined in Alert)
+```
+{/*Add link to Alert and AlertType*/}

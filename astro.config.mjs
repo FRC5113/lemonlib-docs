@@ -6,8 +6,8 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'LemonLib documentation',
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/FRC5113/LemonLib' }],
 			sidebar: [
 				{
 					label: 'Guides',
@@ -39,6 +39,14 @@ export default defineConfig({
 								{label: "KilloughSim (Kiwi sim)", slug: 'reference/kiwisim'},
 								{label: "LemonCamSim", slug: 'reference/lemoncamsim'},
 								{label: "LemonInputSim", slug: 'reference/lemoninputsim'}
+							]
+						},
+						{
+							label: "Util", items: [
+								{label: "AlertType", slug: 'reference/alerttype'},
+								{label: "Alert", slug: 'reference/alert'},
+								{label: "AlertManager", slug: 'reference/alertm'},
+								{label: "LedController", slug: 'reference/ledcontroler'}
 							]
 						}
 					]
