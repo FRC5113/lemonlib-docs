@@ -19,6 +19,27 @@ LEDController(pwm_port: int, length: int)
 ## Methods
 ```py
 
-LEDController.
+LEDController.apply_pattern(pattern: wpilib.LEDPattern) -> None
+#Applies a pattern to your LED's based on a wpilib.LEDPattern
 
+LEDController.set_solid_color(color: Tupple[int, int, int]) -> None
+#Sets all LED's to the selected color        r    g    b
+
+LEDController.set_pixel(index: int, color: Tupple[int, int, int]) -> None
+#Sets specifed LED to the selected color          r    g    b
+
+LEDController.set_gradient(start_color: Tupple[int, int, int], end_color: Tupple[int, int, int])
+#Will create a gradient going back and forth between the start_color and the end_color at a set time
+
+LEDController.static_rainbow(offset: int = 0) -> None
+#Custom preset that Creates a rainbow effect across the LED strip. The offset parameter (in degrees) can be used to animate the rainbow.
+
+LEDController.scrolling_rainbow(speed: float = 1) -> None
+#Creates a scrolling rainbow with a custom speed
+
+LEDController.move_across(color: Tupple[int, int, int], size: int = 1, hertz: wpimath.units.hertz = 1) -> None
+#Moves a block of LEDs across the strip using RobotController.getTime() for timing.
+
+LEDController.clear() -> None
+#Turns off all LED's 
 ```
