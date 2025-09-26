@@ -15,6 +15,10 @@ slug: reference/smart/smartnt
 
 (No documentation provided)
 
+### set_struct_array()
+
+(No documentation provided)
+
 ### put()
 
 (No documentation provided)
