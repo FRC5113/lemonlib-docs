@@ -27,17 +27,8 @@ export default defineConfig({
           label: 'Reference',
           items: [
 {
-  label: 'Ctre',
-  items: [
-    { label: 'LemonPigeon', slug: 'reference/ctre/lemonpigeon' },
-    { label: 'LemonTalonFX', slug: 'reference/ctre/lemontalonfx' }
-  ]
-},
-{
   label: 'Drive',
   items: [
-    { label: 'KilloughDrive', slug: 'reference/drive/killoughdrive' },
-    { label: 'Vector2d', slug: 'reference/drive/vector2d' },
     { label: 'SwagDrive', slug: 'reference/drive/swagdrive' }
   ]
 },
