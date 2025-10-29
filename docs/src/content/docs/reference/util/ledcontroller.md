@@ -50,6 +50,14 @@ The offset parameter (in degrees) can be used to animate the rainbow.
 
 Moves a block of LEDs across the strip using RobotController.getTime() for timing.
 
+### move_across_multi()
+
+Moves a block of LEDs across the strip using RobotController.getTime() for timing.
+
+### move_across_test()
+
+Moves a block of LEDs across the strip using RobotController.getTime() for timing.
+
 ### clear()
 
 Turns off all LEDs.
