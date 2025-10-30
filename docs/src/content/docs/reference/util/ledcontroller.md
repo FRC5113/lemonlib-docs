@@ -52,11 +52,7 @@ Moves a block of LEDs across the strip using RobotController.getTime() for timin
 
 ### move_across_multi()
 
-Moves a block of LEDs across the strip using RobotController.getTime() for timing.
-
-### move_across_test()
-
-Moves a block of LEDs across the strip using RobotController.getTime() for timing.
+Moves a fixed-size multicolor block across the strip using RobotController.getTime() for timing.
 
 ### clear()
 
