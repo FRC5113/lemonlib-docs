@@ -37,6 +37,7 @@ export default defineConfig({
   label: 'Drive',
   items: [
     { label: 'KilloughDrive', slug: 'reference/drive/killoughdrive' },
+    { label: 'Vector2d', slug: 'reference/drive/vector2d' },
     { label: 'SwagDrive', slug: 'reference/drive/swagdrive' }
   ]
 },
