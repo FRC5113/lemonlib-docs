@@ -97,6 +97,7 @@ export default defineConfig({
     { label: 'AlertType', slug: 'reference/util/alerttype' },
     { label: 'Alert', slug: 'reference/util/alert' },
     { label: 'AlertManager', slug: 'reference/util/alertmanager' },
+    { label: 'OneWaySlewRateLimiter', slug: 'reference/util/onewayslewratelimiter' },
     { label: 'NotificationLevel', slug: 'reference/util/notificationlevel' },
     { label: 'Notification', slug: 'reference/util/notification' },
     { label: 'MagicSysIdRoutine', slug: 'reference/util/magicsysidroutine' },
