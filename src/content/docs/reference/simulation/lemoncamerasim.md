@@ -25,5 +25,5 @@ fov (float): horizontal range of vision (degrees)
 
 ### update()
 
-(No documentation provided)
+
 

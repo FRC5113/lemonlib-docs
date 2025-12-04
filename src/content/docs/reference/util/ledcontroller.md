@@ -20,7 +20,7 @@ Applies a wpilib.LEDPattern to the LED buffer and updates the strip.
 
 ### _write_data()
 
-(No documentation provided)
+
 
 ### set_solid_color()
 

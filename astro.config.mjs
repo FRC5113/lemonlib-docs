@@ -1,32 +1,33 @@
-// @ts-check
-import { defineConfig } from 'astro/config';
-import starlight from '@astrojs/starlight';
-import node from '@astrojs/node';
 
-export default defineConfig({
-  output: 'server',
-  adapter: node({
-    mode: 'standalone'
-  }),
-  integrations: [
-    starlight({
-      title: 'LemonLib documentation',
-      favicon: '/lemons.ico',
-      social: [
-        { icon: 'github', label: 'GitHub', href: 'https://github.com/FRC5113/LemonLib' },
-        { icon: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/frc5113/' }
-      ],
-      sidebar: [
+        // @ts-check
+        import { defineConfig } from 'astro/config';
+        import starlight from '@astrojs/starlight';
+        import node from '@astrojs/node';
+
+        export default defineConfig({
+        output: 'server',
+        adapter: node({
+            mode: 'standalone'
+        }),
+        integrations: [
+            starlight({
+            title: 'LemonLib documentation',
+            favicon: '/lemons.ico',
+            social: [
+                { icon: 'github', label: 'GitHub', href: 'https://github.com/FRC5113/LemonLib' },
+                { icon: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/frc5113/' }
+            ],
+            sidebar: [
+                {
+                label: 'Guides',
+                items: [
+                    { label: 'Install', slug: 'guides/install' }
+                ]
+                },
+                {
+                label: 'Reference',
+                items: [
         {
-          label: 'Guides',
-          items: [
-            { label: 'Install', slug: 'guides/install' }
-          ]
-        },
-        {
-          label: 'Reference',
-          items: [
-{
   label: 'Ctre',
   items: [
     { label: 'LemonPigeon', slug: 'reference/ctre/lemonpigeon' },
@@ -104,9 +105,10 @@ export default defineConfig({
     { label: 'LEDController', slug: 'reference/util/ledcontroller' }
   ]
 }
-          ]
-        }
-      ]
-    })
-  ]
-});
+                ]
+                }
+            ]
+            })
+        ]
+        });
+    

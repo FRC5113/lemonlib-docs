@@ -13,11 +13,11 @@ controlled using commands, while still using the magicbot framework.
 
 ### __init__()
 
-(No documentation provided)
+
 
 ### add_periodic()
 
-(No documentation provided)
+
 
 ### autonomousPeriodic()
 
@@ -32,7 +32,7 @@ components are called.
 
 ### autonomous()
 
-(No documentation provided)
+
 
 ### enabledperiodic()
 
@@ -43,23 +43,23 @@ Users should override this method for code which will be called
 
 ### _stop_notifiers()
 
-(No documentation provided)
+
 
 ### _on_mode_disable_components()
 
-(No documentation provided)
+
 
 ### _on_mode_enable_components()
 
-(No documentation provided)
+
 
 ### on_enable()
 
-(No documentation provided)
+
 
 ### _restart_periodics()
 
-(No documentation provided)
+
 
 ### _enabled_periodic()
 
@@ -67,7 +67,7 @@ Run components and all periodic methods.
 
 ### _do_periodics()
 
-(No documentation provided)
+
 
 ### get_period()
 

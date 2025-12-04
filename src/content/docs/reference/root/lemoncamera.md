@@ -18,21 +18,21 @@ window -- number of ticks until a tag is considered lost.
 
 ### update()
 
-(No documentation provided)
+
 
 ### has_target()
 
-(No documentation provided)
+
 
 ### get_best_tag()
 
-(No documentation provided)
+
 
 ### get_tag_pose()
 
-(No documentation provided)
+
 
 ### get_best_pose()
 
-(No documentation provided)
+
 

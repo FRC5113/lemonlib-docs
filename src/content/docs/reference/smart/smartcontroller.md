@@ -13,7 +13,7 @@ create these using a `SmartProfile`.
 
 ### __init__()
 
-(No documentation provided)
+
 
 ### setTolerance()
 
@@ -41,9 +41,9 @@ Returns the current measurement value of the controller.
 
 ### initSendable()
 
-(No documentation provided)
+
 
 ### calculate()
 
-(No documentation provided)
+
 

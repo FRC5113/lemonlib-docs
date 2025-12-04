@@ -37,19 +37,19 @@ class MyComponent:
 
 ### __init__()
 
-(No documentation provided)
+
 
 ### __set_name__()
 
-(No documentation provided)
+
 
 ### __get__()
 
-(No documentation provided)
+
 
 ### __set__()
 
-(No documentation provided)
+
 
 ### has_changed()
 

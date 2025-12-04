@@ -41,15 +41,15 @@ R1, R2: Input weighting for LTV controllers
 
 ### initSendable()
 
-(No documentation provided)
+
 
 ### _set_gain()
 
-(No documentation provided)
+
 
 ### _requires()
 
-(No documentation provided)
+
 
 ### create_pid_controller()
 

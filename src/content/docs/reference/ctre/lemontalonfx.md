@@ -14,23 +14,23 @@ and DifferentialDrive
 
 ### __init__()
 
-(No documentation provided)
+
 
 ### disable()
 
-(No documentation provided)
+
 
 ### get()
 
-(No documentation provided)
+
 
 ### getInverted()
 
-(No documentation provided)
+
 
 ### set()
 
-(No documentation provided)
+
 
 ### setIdleMode()
 
@@ -41,13 +41,13 @@ mode -- Idle mode (coast or brake)
 
 ### setInverted()
 
-(No documentation provided)
+
 
 ### setVoltage()
 
-(No documentation provided)
+
 
 ### stopMotor()
 
-(No documentation provided)
+
 
