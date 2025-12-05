@@ -102,6 +102,7 @@
     { label: 'NotificationLevel', slug: 'reference/util/notificationlevel' },
     { label: 'Notification', slug: 'reference/util/notification' },
     { label: 'MagicSysIdRoutine', slug: 'reference/util/magicsysidroutine' },
+    { label: 'AsymmetricSlewLimiter', slug: 'reference/util/asymmetricslewlimiter' },
     { label: 'LEDController', slug: 'reference/util/ledcontroller' }
   ]
 }
