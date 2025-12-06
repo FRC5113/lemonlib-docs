@@ -70,14 +70,12 @@
     { label: 'LemonInput', slug: 'reference/root/lemoninput' },
     { label: 'xbox_buttons', slug: 'reference/root/xbox-buttons' },
     { label: 'ps5_buttons', slug: 'reference/root/ps5-buttons' },
-    { label: 'legion_buttons', slug: 'reference/root/legion-buttons' },
-    { label: 'LemonCamera', slug: 'reference/root/lemoncamera' }
+    { label: 'legion_buttons', slug: 'reference/root/legion-buttons' }
   ]
 },
 {
   label: 'Simulation',
   items: [
-    { label: 'LemonCameraSim', slug: 'reference/simulation/lemoncamerasim' },
     { label: 'FalconSim', slug: 'reference/simulation/falconsim' },
     { label: 'LemonInputSim', slug: 'reference/simulation/lemoninputsim' },
     { label: 'KilloughDriveSim', slug: 'reference/simulation/killoughdrivesim' }
