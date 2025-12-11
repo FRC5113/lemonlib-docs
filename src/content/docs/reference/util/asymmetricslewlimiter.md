@@ -16,6 +16,10 @@ Args:
     falling_rate (float): Maximum rate of change when signal is decreasing (units/sample)
     initial_value (float, optional): Starting value of the limiter (default: 0.
 
+### get_time_seconds()
+
+Get the time in seconds
+
 ### calculate()
 
 Process input signal through slew rate limiter.
