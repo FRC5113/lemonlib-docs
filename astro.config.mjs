@@ -70,8 +70,7 @@
     { label: 'LemonInput', slug: 'reference/root/lemoninput' },
     { label: 'xbox_buttons', slug: 'reference/root/xbox-buttons' },
     { label: 'ps5_buttons', slug: 'reference/root/ps5-buttons' },
-    { label: 'legion_buttons', slug: 'reference/root/legion-buttons' },
-    { label: 'LemonCamera', slug: 'reference/root/lemoncamera' }
+    { label: 'legion_buttons', slug: 'reference/root/legion-buttons' }
   ]
 },
 {
