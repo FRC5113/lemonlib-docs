@@ -1,11 +1,11 @@
 ---
 title: Notifier
-slug: reference/smart/notifier
+slug: reference/util/notifier
 ---
 
 # Notifier
 
-Periodically calls a callback on a background daemon thread. (replaces edu.wpi.first.wpilibj.Notifier)
+Periodically calls a callback on a background thread. (implements edu.wpi.first.wpilibj.Notifier)
 
 ## Methods
 

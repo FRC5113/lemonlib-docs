@@ -19,6 +19,10 @@ Unit conventions (all floats):
 
 ## Methods
 
+### __init__()
+
+
+
 ### create()
 
 Instantiate the correct SmartMotorController subclass based on the

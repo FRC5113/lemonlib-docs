@@ -7,7 +7,7 @@ slug: reference/smart/smartmotorcontrollertelemetryconfig
 
 ## Methods
 
-### withTelemetryVerbosity()
+### with_telemetry_verbosity()
 
 
 
