@@ -93,6 +93,19 @@
   items: [
     { label: 'SmartProfile', slug: 'reference/smart/smartprofile' },
     { label: 'SmartController', slug: 'reference/smart/smartcontroller' },
+    { label: 'SmartMotorControllerTelemetry', slug: 'reference/smart/smartmotorcontrollertelemetry' },
+    { label: 'SmartMotorControllerTelemetryConfig', slug: 'reference/smart/smartmotorcontrollertelemetryconfig' },
+    { label: 'SmartMotorControllerCommandRegistry', slug: 'reference/smart/smartmotorcontrollercommandregistry' },
+    { label: 'SimSupplier', slug: 'reference/smart/simsupplier' },
+    { label: 'SmartMotorController', slug: 'reference/smart/smartmotorcontroller' },
+    { label: 'SmartMotorControllerConfig', slug: 'reference/smart/smartmotorcontrollerconfig' },
+    { label: 'SmartMotorControllerConfigurationException', slug: 'reference/smart/smartmotorcontrollerconfigurationexception' },
+    { label: 'Notifier', slug: 'reference/smart/notifier' },
+    { label: 'BooleanTelemetryField', slug: 'reference/smart/booleantelemetryfield' },
+    { label: 'DoubleTelemetryField', slug: 'reference/smart/doubletelemetryfield' },
+    { label: 'ControlMode', slug: 'reference/smart/controlmode' },
+    { label: 'MotorMode', slug: 'reference/smart/motormode' },
+    { label: 'TelemetryVerbosity', slug: 'reference/smart/telemetryverbosity' },
     { label: 'SmartPreference', slug: 'reference/smart/smartpreference' },
     { label: 'SmartNT', slug: 'reference/smart/smartnt' }
   ]
