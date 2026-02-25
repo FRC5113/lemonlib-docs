@@ -71,7 +71,7 @@ instead if possible.
 
 Creates a CTRE PIDController. Use `create_pid_controller()`
 instead if possible.
-Requires kP, kI, kD,kS
+Requires kP,kI,kD,kS,kV,kMaxV,kMaxA
 
 ### create_ctre_flywheel_controller()
 

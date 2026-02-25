@@ -93,24 +93,7 @@
   items: [
     { label: 'SmartProfile', slug: 'reference/smart/smartprofile' },
     { label: 'SmartController', slug: 'reference/smart/smartcontroller' },
-    { label: 'SmartMotorControllerTelemetry', slug: 'reference/smart/smartmotorcontrollertelemetry' },
-    { label: 'SmartMotorControllerTelemetryConfig', slug: 'reference/smart/smartmotorcontrollertelemetryconfig' },
-    { label: 'SmartMotorControllerCommandRegistry', slug: 'reference/smart/smartmotorcontrollercommandregistry' },
-    { label: 'SimSupplier', slug: 'reference/smart/simsupplier' },
-    { label: 'SmartMotorController', slug: 'reference/smart/smartmotorcontroller' },
-    { label: 'BooleanTelemetryField', slug: 'reference/smart/booleantelemetryfield' },
-    { label: 'DoubleTelemetryField', slug: 'reference/smart/doubletelemetryfield' },
     { label: 'SmartPreference', slug: 'reference/smart/smartpreference' },
-    { label: 'SmartMotorControllerConfigurationException', slug: 'reference/smart/smartmotorcontrollerconfigurationexception' },
-    { label: 'MechanismGearing', slug: 'reference/smart/mechanismgearing' },
-    { label: 'SmartMotorControllerTelemetryConfig', slug: 'reference/smart/smartmotorcontrollertelemetryconfig' },
-    { label: 'TelemetryVerbosity', slug: 'reference/smart/telemetryverbosity' },
-    { label: 'MotorMode', slug: 'reference/smart/motormode' },
-    { label: 'ControlMode', slug: 'reference/smart/controlmode' },
-    { label: 'SmartMotorControllerOptions', slug: 'reference/smart/smartmotorcontrolleroptions' },
-    { label: '_BasicOptions', slug: 'reference/smart/basicoptions' },
-    { label: '_ExternalEncoderOptions', slug: 'reference/smart/externalencoderoptions' },
-    { label: 'SmartMotorControllerConfig', slug: 'reference/smart/smartmotorcontrollerconfig' },
     { label: 'SmartNT', slug: 'reference/smart/smartnt' }
   ]
 },
@@ -123,7 +106,6 @@
     { label: 'OneWaySlewRateLimiter', slug: 'reference/util/onewayslewratelimiter' },
     { label: 'NotificationLevel', slug: 'reference/util/notificationlevel' },
     { label: 'Notification', slug: 'reference/util/notification' },
-    { label: 'Notifier', slug: 'reference/util/notifier' },
     { label: 'MagicSysIdRoutine', slug: 'reference/util/magicsysidroutine' },
     { label: 'AsymmetricSlewLimiter', slug: 'reference/util/asymmetricslewlimiter' },
     { label: 'LEDController', slug: 'reference/util/ledcontroller' }
