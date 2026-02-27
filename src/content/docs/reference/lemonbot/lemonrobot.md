@@ -19,10 +19,6 @@ controlled using commands, while still using the magicbot framework.
 
 
 
-### _run_periodics()
-
-
-
 ### autonomousPeriodic()
 
 Periodic code for autonomous mode should go here.
@@ -45,11 +41,23 @@ Runs when not enabled for trajectory display.
 
 Users should override this method for code which will be called
 
+### _stop_notifiers()
+
+
+
+### _on_mode_disable_components()
+
+
+
 ### _on_mode_enable_components()
 
 
 
 ### on_enable()
+
+
+
+### _restart_periodics()
 
 
 

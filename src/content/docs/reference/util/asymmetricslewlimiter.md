@@ -24,8 +24,13 @@ Get the time in seconds
 
 Process input signal through slew rate limiter.
 
+Uses rising_rate when the magnitude of the signal is increasing
+(accelerating) and falling_rate when it is decreasing (decelerating),
+so that the limiter behaves correctly for both positive and negative
+velocity commands.
+
 Args:
-    input_signal (float): float Input signal value(s)
+    input_signal (float): Input signal value
 
 Returns:
     Rate-limited output signal

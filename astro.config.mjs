@@ -37,9 +37,9 @@
 {
   label: 'Drive',
   items: [
-    { label: 'KilloughDrive', slug: 'reference/drive/killoughdrive' },
     { label: 'Vector2d', slug: 'reference/drive/vector2d' },
-    { label: 'SwagDrive', slug: 'reference/drive/swagdrive' }
+    { label: 'SwagDrive', slug: 'reference/drive/swagdrive' },
+    { label: 'KilloughDrive', slug: 'reference/drive/killoughdrive' }
   ]
 },
 {
@@ -78,37 +78,37 @@
 {
   label: 'Simulation',
   items: [
-    { label: 'LemonCameraSim', slug: 'reference/simulation/lemoncamerasim' },
+    { label: 'LemonInputSim', slug: 'reference/simulation/lemoninputsim' },
     { label: 'FalconSim', slug: 'reference/simulation/falconsim' },
+    { label: 'LemonCameraSim', slug: 'reference/simulation/lemoncamerasim' },
+    { label: 'KilloughDriveSim', slug: 'reference/simulation/killoughdrivesim' },
     { label: 'FalconSim', slug: 'reference/simulation/falconsim' },
     { label: 'FalconSimFOC', slug: 'reference/simulation/falconsimfoc' },
     { label: 'KrakenSim', slug: 'reference/simulation/krakensim' },
-    { label: 'KrakenSimFOC', slug: 'reference/simulation/krakensimfoc' },
-    { label: 'LemonInputSim', slug: 'reference/simulation/lemoninputsim' },
-    { label: 'KilloughDriveSim', slug: 'reference/simulation/killoughdrivesim' }
+    { label: 'KrakenSimFOC', slug: 'reference/simulation/krakensimfoc' }
   ]
 },
 {
   label: 'Smart',
   items: [
-    { label: 'SmartProfile', slug: 'reference/smart/smartprofile' },
     { label: 'SmartController', slug: 'reference/smart/smartcontroller' },
     { label: 'SmartPreference', slug: 'reference/smart/smartpreference' },
-    { label: 'SmartNT', slug: 'reference/smart/smartnt' }
+    { label: 'SmartNT', slug: 'reference/smart/smartnt' },
+    { label: 'SmartProfile', slug: 'reference/smart/smartprofile' }
   ]
 },
 {
   label: 'Util',
   items: [
+    { label: 'NotificationLevel', slug: 'reference/util/notificationlevel' },
+    { label: 'Notification', slug: 'reference/util/notification' },
+    { label: 'LEDController', slug: 'reference/util/ledcontroller' },
+    { label: 'AsymmetricSlewLimiter', slug: 'reference/util/asymmetricslewlimiter' },
     { label: 'AlertType', slug: 'reference/util/alerttype' },
     { label: 'Alert', slug: 'reference/util/alert' },
     { label: 'AlertManager', slug: 'reference/util/alertmanager' },
     { label: 'OneWaySlewRateLimiter', slug: 'reference/util/onewayslewratelimiter' },
-    { label: 'NotificationLevel', slug: 'reference/util/notificationlevel' },
-    { label: 'Notification', slug: 'reference/util/notification' },
-    { label: 'MagicSysIdRoutine', slug: 'reference/util/magicsysidroutine' },
-    { label: 'AsymmetricSlewLimiter', slug: 'reference/util/asymmetricslewlimiter' },
-    { label: 'LEDController', slug: 'reference/util/ledcontroller' }
+    { label: 'MagicSysIdRoutine', slug: 'reference/util/magicsysidroutine' }
   ]
 }
                 ]
