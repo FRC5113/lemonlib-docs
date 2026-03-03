@@ -42,17 +42,15 @@ The offset parameter (in degrees) can be used to animate the rainbow.
 
 ### scolling_rainbow()
 
-Custom preset that Creates a rainbow effect across the LED strip.
-
-The offset parameter (in degrees) can be used to animate the rainbow.
+Custom preset that Creates a scrolling rainbow effect across the LED strip.
 
 ### move_across()
 
-Moves a block of LEDs across the strip using RobotController.getTime() for timing.
+Moves a block of LEDs across the strip using Timer.getFPGATimestamp() for timing.
 
 ### move_across_multi()
 
-Moves a fixed-size multicolor block across the strip using RobotController.getTime() for timing.
+Moves a fixed-size multicolor block across the strip using Timer.getFPGATimestamp() for timing.
 
 ### clear()
 
