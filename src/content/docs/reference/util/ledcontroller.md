@@ -14,6 +14,14 @@ Initializes the LED controller.
 :param pwm_port: The PWM port the LED strip is connected to.
 :param length: Number of LEDs in the strip.
 
+### _reset_move_cache()
+
+
+
+### _clear_all()
+
+
+
 ### apply_pattern()
 
 Applies a wpilib.LEDPattern to the LED buffer and updates the strip.
@@ -42,15 +50,25 @@ The offset parameter (in degrees) can be used to animate the rainbow.
 
 ### scolling_rainbow()
 
-Custom preset that Creates a scrolling rainbow effect across the LED strip.
+Custom preset that Creates a rainbow effect across the LED strip.
+
+The offset parameter (in degrees) can be used to animate the rainbow.
 
 ### move_across()
 
-Moves a block of LEDs across the strip using Timer.getFPGATimestamp() for timing.
+Moves a block of LEDs across the strip using RobotController.getTime() for timing.
 
 ### move_across_multi()
 
-Moves a fixed-size multicolor block across the strip using Timer.getFPGATimestamp() for timing.
+Moves a fixed-size multicolor block across the strip using RobotController.getTime() for timing.
+
+### blink()
+
+Blinks the entire strip between two colors at the given frequency.
+
+:param color1: The first RGB color.
+:param color2: The second RGB color. Defaults to off (0, 0, 0).
+:param hertz: Blink frequency in Hz (full cycles per second). Default is 2 Hz.
 
 ### clear()
 
