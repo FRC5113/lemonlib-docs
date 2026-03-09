@@ -80,6 +80,7 @@
   items: [
     { label: 'LemonInputSim', slug: 'reference/simulation/lemoninputsim' },
     { label: 'FalconSim', slug: 'reference/simulation/falconsim' },
+    { label: 'LemonVisionSim', slug: 'reference/simulation/lemonvisionsim' },
     { label: 'LemonCameraSim', slug: 'reference/simulation/lemoncamerasim' },
     { label: 'KilloughDriveSim', slug: 'reference/simulation/killoughdrivesim' },
     { label: 'FalconSim', slug: 'reference/simulation/falconsim' },
