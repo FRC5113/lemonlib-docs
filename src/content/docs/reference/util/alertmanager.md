@@ -11,17 +11,15 @@ Manages a collection of alerts and integrates with the SmartDashboard.
 
 ### __init__()
 
-Initialize the AlertManager and add it to the SmartDashboard.
+Initialize the AlertManager.
 
 Args:
     logger (Logger): Logger instance for logging alert messages.
+    enabled (bool): Whether to publish alerts to dashboard.
 
 ### initSendable()
 
-Configure the SmartDashboard properties for the alerts.
 
-Args:
-    builder (SendableBuilder): The builder to configure.
 
 ### get_strings()
 

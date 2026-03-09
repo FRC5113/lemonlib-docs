@@ -5,6 +5,11 @@ slug: reference/smart/smartnt
 
 # SmartNT
 
+Lightweight NetworkTables wrapper for simple key-value publishing.
+
+Entries are cached on first access so repeated puts/gets only pay
+a single dict lookup — no string splitting, no sub-table traversal.
+
 ## Methods
 
 ### __init__()
@@ -15,41 +20,9 @@ slug: reference/smart/smartnt
 
 
 
-### set_struct_array()
+### set_type()
 
-
-
-### put()
-
-
-
-### get()
-
-
-
-### add_double_property()
-
-
-
-### add_boolean_property()
-
-
-
-### add_string_property()
-
-
-
-### start()
-
-
-
-### stop()
-
-
-
-### _update_loop()
-
-
+Set the `.type` metadata entry so dashboards render the correct widget.
 
 ### put_number()
 
@@ -60,6 +33,10 @@ slug: reference/smart/smartnt
 
 
 ### put_string()
+
+
+
+### put_string_array()
 
 
 
@@ -75,7 +52,11 @@ slug: reference/smart/smartnt
 
 
 
-### value()
+### put()
+
+
+
+### get()
 
 
 
