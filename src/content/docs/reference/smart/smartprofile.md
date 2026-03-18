@@ -73,6 +73,18 @@ Creates a CTRE PIDController. Use `create_pid_controller()`
 instead if possible.
 Requires kP,kI,kD,kS,kV,kMaxV,kMaxA
 
+### create_ctre_elevator_controller()
+
+Creates a CTRE PIDController. Use `create_pid_controller()`
+instead if possible.
+Requires kP,kI,kD,kS,kG,kV,kMaxV,kMaxA
+
+### create_ctre_arm_controller()
+
+Creates a CTRE PIDController. Use `create_pid_controller()`
+instead if possible.
+Requires kP,kI,kD,kS,kG,kV,kMaxV,kMaxA
+
 ### create_ctre_flywheel_controller()
 
 Creates a CTRE PIDController. Use `create_pid_controller()`
