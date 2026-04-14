@@ -19,33 +19,19 @@ controlled using commands, while still using the magicbot framework.
 
 
 
+### _run_periodics()
+
+
+
 ### autonomousPeriodic()
 
-Periodic code for autonomous mode should go here.
-Runs when not enabled for trajectory display.
 
-Users should override this method for code which will be called
-periodically at a regular rate while the robot is in autonomous mode.
-
-This code executes before the ``execute`` functions of all
-components are called.
 
 ### autonomous()
 
 
 
 ### enabledperiodic()
-
-Periodic code for when the bot is enabled should go here.
-Runs when not enabled for trajectory display.
-
-Users should override this method for code which will be called
-
-### _stop_notifiers()
-
-
-
-### _on_mode_disable_components()
 
 
 
@@ -57,13 +43,23 @@ Users should override this method for code which will be called
 
 
 
-### _restart_periodics()
+### robotPeriodic()
 
+Periodic code for all modes should go here.
 
+Users must override this method to utilize it
+but it is not required.
+
+This function gets called last in each mode.
+You may use it for any code you need to run
+during all modes of the robot (e.g NetworkTables updates)
+
+The default implementation will update
+SmartDashboard and LiveWindow
 
 ### _enabled_periodic()
 
-Run components and all periodic methods.
+
 
 ### _do_periodics()
 
