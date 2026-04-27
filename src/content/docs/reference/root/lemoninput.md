@@ -22,6 +22,12 @@ Args:
         - "Xbox": Forces the controller type to Xbox.
         - "PS5": Forces the controller type to PS5.
 
+### _is_Xbox()
+
+Checks if the controller at the specified port is an Xbox controller.
+Args:
+    port (int): The port number to check.
+
 ### getType()
 
 Returns the type of controller (Xbox or PS5).
