@@ -28,6 +28,12 @@ Checks if the controller at the specified port is an Xbox controller.
 Args:
     port (int): The port number to check.
 
+### _is_PS5()
+
+Checks if the controller at the specified port is a PS5 controller.
+Args:
+    port (int): The port number to check.
+
 ### getType()
 
 Returns the type of controller (Xbox or PS5).
