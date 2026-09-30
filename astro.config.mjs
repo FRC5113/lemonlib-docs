@@ -51,18 +51,11 @@
   ]
 },
 {
-  label: 'Lemonbot',
-  items: [
-    { label: 'LemonRobot', slug: 'reference/lemonbot/lemonrobot' }
-  ]
-},
-{
   label: 'Root',
   items: [
     { label: 'LemonInput', slug: 'reference/root/lemoninput' },
     { label: 'xbox_buttons', slug: 'reference/root/xbox-buttons' },
-    { label: 'ps5_buttons', slug: 'reference/root/ps5-buttons' },
-    { label: 'LemonCamera', slug: 'reference/root/lemoncamera' }
+    { label: 'ps5_buttons', slug: 'reference/root/ps5-buttons' }
   ]
 },
 {
