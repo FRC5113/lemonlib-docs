@@ -15,12 +15,17 @@ or manual detection and use in code.
 
 Initializes the control object with the specified port number and type.
 Args:
-    port (int, optional): The port number of the controller. If unset,
-        chooses first controller matching type.
-    type (str, optional): The type of the controller. Defaults to "auto".
+    port (int, optional): The port number of the controller.
+        If unset, chooses first controller matching type not using driverstation maps.
+    variant (str, optional): The type of the controller. Defaults to "auto".
         - "auto": Automatically detects the controller type.
-        - "Xbox": Forces the controller type to Xbox.
-        - "PS5": Forces the controller type to PS5.
+        - "DriverStation": Uses the DriverStation to detect the controller type.
+        - "Xbox": Forces the controller type to Xbox not using driverstation maps.
+        - "PS5": Forces the controller type to PS5 not using driverstation maps.
+
+### _auto_type()
+
+
 
 ### _is_Xbox()
 
@@ -248,11 +253,4 @@ if controller.pov() >= 0:
 
 Returns:
     float: The Y-axis value of the POV.
-
-### initSendable()
-
-Initializes the sendable for the LemonInput class.
-
-Args:
-    builder: The sendable builder.
 

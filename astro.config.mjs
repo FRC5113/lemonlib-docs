@@ -37,15 +37,8 @@
 {
   label: 'Drive',
   items: [
-    { label: 'Vector2d', slug: 'reference/drive/vector2d' },
     { label: 'KilloughDrive', slug: 'reference/drive/killoughdrive' },
     { label: 'SwagDrive', slug: 'reference/drive/swagdrive' }
-  ]
-},
-{
-  label: 'Funnies',
-  items: [
-    { label: 'Funnycontrollers', slug: 'reference/funnies/funnycontrollers' }
   ]
 },
 {
@@ -60,8 +53,6 @@
 {
   label: 'Lemonbot',
   items: [
-    { label: 'LemonRobot', slug: 'reference/lemonbot/lemonrobot' },
-    { label: 'LemonComponent', slug: 'reference/lemonbot/lemoncomponent' },
     { label: 'LemonRobot', slug: 'reference/lemonbot/lemonrobot' }
   ]
 },
@@ -71,7 +62,6 @@
     { label: 'LemonInput', slug: 'reference/root/lemoninput' },
     { label: 'xbox_buttons', slug: 'reference/root/xbox-buttons' },
     { label: 'ps5_buttons', slug: 'reference/root/ps5-buttons' },
-    { label: 'legion_buttons', slug: 'reference/root/legion-buttons' },
     { label: 'LemonCamera', slug: 'reference/root/lemoncamera' }
   ]
 },
@@ -79,8 +69,6 @@
   label: 'Simulation',
   items: [
     { label: 'LemonInputSim', slug: 'reference/simulation/lemoninputsim' },
-    { label: 'FalconSim', slug: 'reference/simulation/falconsim' },
-    { label: 'KilloughDriveSim', slug: 'reference/simulation/killoughdrivesim' },
     { label: 'LemonVisionSim', slug: 'reference/simulation/lemonvisionsim' },
     { label: 'LemonCameraSim', slug: 'reference/simulation/lemoncamerasim' },
     { label: 'FalconSim', slug: 'reference/simulation/falconsim' },
@@ -94,22 +82,21 @@
   items: [
     { label: 'SmartPreference', slug: 'reference/smart/smartpreference' },
     { label: 'SmartController', slug: 'reference/smart/smartcontroller' },
-    { label: 'SmartProfile', slug: 'reference/smart/smartprofile' },
-    { label: 'SmartNT', slug: 'reference/smart/smartnt' }
+    { label: 'SmartNT', slug: 'reference/smart/smartnt' },
+    { label: 'SmartProfile', slug: 'reference/smart/smartprofile' }
   ]
 },
 {
   label: 'Util',
   items: [
-    { label: 'MagicSysIdRoutine', slug: 'reference/util/magicsysidroutine' },
     { label: 'LEDController', slug: 'reference/util/ledcontroller' },
+    { label: 'AsymmetricSlewLimiter', slug: 'reference/util/asymmetricslewlimiter' },
     { label: 'AlertType', slug: 'reference/util/alerttype' },
     { label: 'Alert', slug: 'reference/util/alert' },
     { label: 'AlertManager', slug: 'reference/util/alertmanager' },
+    { label: 'MagicSysIdRoutine', slug: 'reference/util/magicsysidroutine' },
     { label: 'NotificationLevel', slug: 'reference/util/notificationlevel' },
-    { label: 'Notification', slug: 'reference/util/notification' },
-    { label: 'OneWaySlewRateLimiter', slug: 'reference/util/onewayslewratelimiter' },
-    { label: 'AsymmetricSlewLimiter', slug: 'reference/util/asymmetricslewlimiter' }
+    { label: 'Notification', slug: 'reference/util/notification' }
   ]
 }
                 ]
