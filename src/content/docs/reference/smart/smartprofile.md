@@ -30,7 +30,7 @@ kA: Acceleration Gain
 kMinInput: Minimum expected measurement value (used for continuous input)
 kMaxInput: Maximum expected measurement value (used for continuous input)
 
-Q1, Q2, Q3, Q4, Q5: State weighting for LTV controllers
+Q1, Q2, Q3: State weighting for LTV controllers
 R1, R2: Input weighting for LTV controllers
 
 :param str profile_key: Prefix for associated NetworkTables keys
@@ -38,10 +38,6 @@ R1, R2: Input weighting for LTV controllers
 :param bool tuning_enabled: Specify whether or not to send and retrieve
     data from NetworkTables. If true, values from NetworkTables
     are given precedence over values set in code.
-
-### initSendable()
-
-
 
 ### _set_gain()
 
@@ -103,9 +99,11 @@ Requires kP, kI, kD, kMaxV, kMaxA, kMinInput, kMaxInput
 
 ### create_ltv_unicycle_controller()
 
-Creates a wpilib LTVUnicyvleController.
-Requires Qelems tuple(5 elements of SupportsFloat),
-Relems tuple(2 elements of SupportsFloat)
+Creates a wpilib LTVUnicycleController.
+Optional Q1, Q2, Q3 (max desired x, y, heading error) and
+R1, R2 (max desired linear, angular velocity effort). If any are
+missing, wpilib's default tolerances are used.
+`plant` and `trackwidth` are unused and kept for compatibility.
 
 ### create_simple_feedforward()
 

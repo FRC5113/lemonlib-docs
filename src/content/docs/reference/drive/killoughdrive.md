@@ -84,7 +84,3 @@ Updates the robot's estimated position on the field.
 
 Returns the estimated position of the robot.
 
-### initSendable()
-
-Initializes the sendable interface for SmartDashboard integration.
-

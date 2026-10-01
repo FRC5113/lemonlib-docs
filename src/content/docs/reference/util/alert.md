@@ -43,3 +43,7 @@ Update the alert's text and log the change if it is active.
 Args:
     text (str): New text for the alert.
 
+### _log()
+
+Log text to the AlertManager logger at this alert's severity.
+

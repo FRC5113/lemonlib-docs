@@ -11,11 +11,3 @@ slug: reference/simulation/krakensimfoc
 
 
 
-### getSetpoint()
-
-
-
-### update()
-
-
-

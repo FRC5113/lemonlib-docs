@@ -17,10 +17,6 @@ Args:
     logger (Logger): Logger instance for logging alert messages.
     enabled (bool): Whether to publish alerts to dashboard.
 
-### initSendable()
-
-
-
 ### get_strings()
 
 Retrieve active alerts of a specified type as strings.

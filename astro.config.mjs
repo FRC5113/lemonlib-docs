@@ -28,13 +28,6 @@
                 label: 'Reference',
                 items: [
         {
-  label: 'Ctre',
-  items: [
-    { label: 'LemonPigeon', slug: 'reference/ctre/lemonpigeon' },
-    { label: 'LemonTalonFX', slug: 'reference/ctre/lemontalonfx' }
-  ]
-},
-{
   label: 'Drive',
   items: [
     { label: 'KilloughDrive', slug: 'reference/drive/killoughdrive' },
@@ -42,20 +35,12 @@
   ]
 },
 {
-  label: 'Grapple',
-  items: [
-    { label: 'LaserCAN', slug: 'reference/grapple/lasercan' },
-    { label: 'LaserCanMeasurement', slug: 'reference/grapple/lasercanmeasurement' },
-    { label: 'LaserCanRoi', slug: 'reference/grapple/lasercanroi' },
-    { label: 'MitoCANdria', slug: 'reference/grapple/mitocandria' }
-  ]
-},
-{
   label: 'Root',
   items: [
     { label: 'LemonInput', slug: 'reference/root/lemoninput' },
     { label: 'xbox_buttons', slug: 'reference/root/xbox-buttons' },
-    { label: 'ps5_buttons', slug: 'reference/root/ps5-buttons' }
+    { label: 'ps5_buttons', slug: 'reference/root/ps5-buttons' },
+    { label: 'LemonCamera', slug: 'reference/root/lemoncamera' }
   ]
 },
 {
@@ -64,6 +49,7 @@
     { label: 'LemonInputSim', slug: 'reference/simulation/lemoninputsim' },
     { label: 'LemonVisionSim', slug: 'reference/simulation/lemonvisionsim' },
     { label: 'LemonCameraSim', slug: 'reference/simulation/lemoncamerasim' },
+    { label: '_TalonFXSim', slug: 'reference/simulation/talonfxsim' },
     { label: 'FalconSim', slug: 'reference/simulation/falconsim' },
     { label: 'FalconSimFOC', slug: 'reference/simulation/falconsimfoc' },
     { label: 'KrakenSim', slug: 'reference/simulation/krakensim' },
@@ -75,7 +61,6 @@
   items: [
     { label: 'SmartPreference', slug: 'reference/smart/smartpreference' },
     { label: 'SmartController', slug: 'reference/smart/smartcontroller' },
-    { label: 'SmartNT', slug: 'reference/smart/smartnt' },
     { label: 'SmartProfile', slug: 'reference/smart/smartprofile' }
   ]
 },

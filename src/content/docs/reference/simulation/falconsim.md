@@ -11,11 +11,3 @@ slug: reference/simulation/falconsim
 
 
 
-### getSetpoint()
-
-
-
-### update()
-
-
-

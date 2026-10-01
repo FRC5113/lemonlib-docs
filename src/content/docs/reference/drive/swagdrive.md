@@ -15,7 +15,3 @@ slug: reference/drive/swagdrive
 
 Custom drive function that incorporates 'swag' logic.
 
-### initSendable()
-
-
-
