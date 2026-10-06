@@ -15,65 +15,16 @@ or manual detection and use in code.
 
 Initializes the control object with the specified port number and type.
 Args:
-    port (int, optional): The port number of the controller.
-        If unset, chooses first controller matching type not using driverstation maps.
-    variant (str, optional): The type of the controller. Defaults to "DriverStation".
+    port (int, optional): The port number of the controller. If unset,
+        chooses first controller matching type.
+    type (str, optional): The type of the controller. Defaults to "auto".
         - "auto": Automatically detects the controller type.
-        - "DriverStation": Uses the Driver Station's standard gamepad mapping.
-        - "Xbox": Forces the controller type to Xbox not using driverstation maps.
-        - "PS5": Forces the controller type to PS5 not using driverstation maps.
-
-### _find_port()
-
-Returns the first connected port matching the variant.
-
-### _auto_type()
-
-
-
-### _is_Xbox()
-
-Checks if the controller at the specified port is an Xbox controller.
-Args:
-    port (int): The port number to check.
-
-### _is_PS5()
-
-Checks if the controller at the specified port is a PS5 controller.
-Args:
-    port (int): The port number to check.
+        - "Xbox": Forces the controller type to Xbox.
+        - "PS5": Forces the controller type to PS5.
 
 ### getType()
 
 Returns the type of controller (Xbox or PS5).
-
-### uses_driverstation_maps()
-
-True if inputs are read using the Driver Station's gamepad mapping.
-
-### getRawButton()
-
-Returns the state of a raw (0-indexed) button.
-
-### getRawAxis()
-
-Returns the value of a raw (0-indexed) axis.
-
-### getPOV()
-
-Returns the POV angle in degrees (clockwise from up), or -1 if not pressed.
-
-### setRumble()
-
-Sets the rumble output of the controller.
-
-### _button()
-
-
-
-### _axis()
-
-
 
 ### getLeftBumper()
 
@@ -246,7 +197,7 @@ Returns the Y-axis value of the right joystick.
 Returns:
     float: The Y-axis value of the right joystick, ranging from -1.0 to 1.0.
 
-### _pov_xy()
+### __pov_xy()
 
 Returns the X and Y values of the POV as a tuple using sin and cos,
 or (0, 0) if the POV is not pressed (-1).
@@ -260,11 +211,11 @@ Returns the X-axis value of the POV (Point of View) of a joystick.
 
 Example:
 ```
-controller = LemonInput(0)
+controller = SmartController(0)
 
-if controller.getPOV() >= 0:
-    pov_x = controller.getPovX()
-    pov_y = controller.getPovY()
+if controller.pov() >= 0:
+    left_joy_x = controller.pov_x()
+    left_joy_y = controller.pov_y()
 ```
 
 Returns:
@@ -276,13 +227,20 @@ Returns the Y-axis value of the POV (Point of View) of a joystick.
 
 Example:
 ```
-controller = LemonInput(0)
+controller = SmartController(0)
 
-if controller.getPOV() >= 0:
-    pov_x = controller.getPovX()
-    pov_y = controller.getPovY()
+if controller.pov() >= 0:
+    left_joy_x = controller.pov_x()
+    left_joy_y = controller.pov_y()
 ```
 
 Returns:
     float: The Y-axis value of the POV.
+
+### initSendable()
+
+Initializes the sendable for the LemonInput class.
+
+Args:
+    builder: The sendable builder.
 

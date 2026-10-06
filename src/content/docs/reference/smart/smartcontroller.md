@@ -39,6 +39,10 @@ Returns the current reference value of the controller.
 
 Returns the current measurement value of the controller.
 
+### initSendable()
+
+
+
 ### calculate()
 
 

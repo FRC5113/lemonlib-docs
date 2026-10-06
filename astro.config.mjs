@@ -40,6 +40,7 @@
     { label: 'LemonInput', slug: 'reference/root/lemoninput' },
     { label: 'xbox_buttons', slug: 'reference/root/xbox-buttons' },
     { label: 'ps5_buttons', slug: 'reference/root/ps5-buttons' },
+    { label: 'legion_buttons', slug: 'reference/root/legion-buttons' },
     { label: 'LemonCamera', slug: 'reference/root/lemoncamera' }
   ]
 },
@@ -73,6 +74,7 @@
     { label: 'Alert', slug: 'reference/util/alert' },
     { label: 'AlertManager', slug: 'reference/util/alertmanager' },
     { label: 'MagicSysIdRoutine', slug: 'reference/util/magicsysidroutine' },
+    { label: 'MotorControllerGroup', slug: 'reference/util/motorcontrollergroup' },
     { label: 'NotificationLevel', slug: 'reference/util/notificationlevel' },
     { label: 'Notification', slug: 'reference/util/notification' }
   ]
