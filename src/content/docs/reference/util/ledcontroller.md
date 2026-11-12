@@ -22,6 +22,10 @@ Initializes the LED controller.
 
 
 
+### apply_pattern()
+
+Applies a wpilib.LEDPattern to the LED buffer and updates the strip.
+
 ### _write_data()
 
 

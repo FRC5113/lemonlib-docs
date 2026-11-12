@@ -30,8 +30,8 @@
         {
   label: 'Drive',
   items: [
-    { label: 'KilloughDrive', slug: 'reference/drive/killoughdrive' },
-    { label: 'SwagDrive', slug: 'reference/drive/swagdrive' }
+    { label: 'SwagDrive', slug: 'reference/drive/swagdrive' },
+    { label: 'KilloughDrive', slug: 'reference/drive/killoughdrive' }
   ]
 },
 {
@@ -39,44 +39,55 @@
   items: [
     { label: 'LemonInput', slug: 'reference/root/lemoninput' },
     { label: 'xbox_buttons', slug: 'reference/root/xbox-buttons' },
-    { label: 'ps5_buttons', slug: 'reference/root/ps5-buttons' },
-    { label: 'legion_buttons', slug: 'reference/root/legion-buttons' },
-    { label: 'LemonCamera', slug: 'reference/root/lemoncamera' }
+    { label: 'ps5_buttons', slug: 'reference/root/ps5-buttons' }
   ]
 },
 {
   label: 'Simulation',
   items: [
-    { label: 'LemonInputSim', slug: 'reference/simulation/lemoninputsim' },
-    { label: 'LemonVisionSim', slug: 'reference/simulation/lemonvisionsim' },
-    { label: 'LemonCameraSim', slug: 'reference/simulation/lemoncamerasim' },
     { label: '_TalonFXSim', slug: 'reference/simulation/talonfxsim' },
     { label: 'FalconSim', slug: 'reference/simulation/falconsim' },
     { label: 'FalconSimFOC', slug: 'reference/simulation/falconsimfoc' },
     { label: 'KrakenSim', slug: 'reference/simulation/krakensim' },
-    { label: 'KrakenSimFOC', slug: 'reference/simulation/krakensimfoc' }
+    { label: 'KrakenSimFOC', slug: 'reference/simulation/krakensimfoc' },
+    { label: 'LemonInputSim', slug: 'reference/simulation/lemoninputsim' },
+    { label: 'LemonVisionSim', slug: 'reference/simulation/lemonvisionsim' },
+    { label: 'LemonCameraSim', slug: 'reference/simulation/lemoncamerasim' }
   ]
 },
 {
   label: 'Smart',
   items: [
-    { label: 'SmartPreference', slug: 'reference/smart/smartpreference' },
     { label: 'SmartController', slug: 'reference/smart/smartcontroller' },
+    { label: 'SmartPreference', slug: 'reference/smart/smartpreference' },
     { label: 'SmartProfile', slug: 'reference/smart/smartprofile' }
   ]
 },
 {
   label: 'Util',
   items: [
+    { label: 'NotificationLevel', slug: 'reference/util/notificationlevel' },
+    { label: 'Notification', slug: 'reference/util/notification' },
+    { label: 'MagicSysIdRoutine', slug: 'reference/util/magicsysidroutine' },
     { label: 'LEDController', slug: 'reference/util/ledcontroller' },
-    { label: 'AsymmetricSlewLimiter', slug: 'reference/util/asymmetricslewlimiter' },
     { label: 'AlertType', slug: 'reference/util/alerttype' },
     { label: 'Alert', slug: 'reference/util/alert' },
     { label: 'AlertManager', slug: 'reference/util/alertmanager' },
-    { label: 'MagicSysIdRoutine', slug: 'reference/util/magicsysidroutine' },
-    { label: 'MotorControllerGroup', slug: 'reference/util/motorcontrollergroup' },
-    { label: 'NotificationLevel', slug: 'reference/util/notificationlevel' },
-    { label: 'Notification', slug: 'reference/util/notification' }
+    { label: 'AsymmetricSlewLimiter', slug: 'reference/util/asymmetricslewlimiter' }
+  ]
+},
+{
+  label: 'Vision',
+  items: [
+    { label: 'VisionBase', slug: 'reference/vision/visionbase' },
+    { label: 'LemonCamera', slug: 'reference/vision/lemoncamera' },
+    { label: 'VisionUtils', slug: 'reference/vision/visionutils' },
+    { label: 'photonname', slug: 'reference/vision/photonname' },
+    { label: 'Lemonlight', slug: 'reference/vision/lemonlight' },
+    { label: 'MegaTagResult', slug: 'reference/vision/megatagresult' },
+    { label: 'MegaTagStdDevs', slug: 'reference/vision/megatagstddevs' },
+    { label: 'LimelightResults', slug: 'reference/vision/limelightresults' },
+    { label: 'NullCamera', slug: 'reference/vision/nullcamera' }
   ]
 }
                 ]
